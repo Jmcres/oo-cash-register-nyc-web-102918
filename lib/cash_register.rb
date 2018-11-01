@@ -23,11 +23,11 @@ end
 @total 
 end
 
-def apply_discount()
+def apply_discount
   if @discount > 0 
     @discount = @discount/100.f 
     @total = @total * (1- @discount)
-    "Success new total is #{@total.to_i}"
+    return "Success new total is #{@total.to_i}"
   end
   return "There is no discount to apply"
   end 
