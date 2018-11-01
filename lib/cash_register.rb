@@ -23,7 +23,7 @@ end
 @total 
 end
 
-def apply_discount
+def apply_discount()
   if @discount > 0 
     @discount = @discount/100.f 
     @total = @total * (1- @discount)
