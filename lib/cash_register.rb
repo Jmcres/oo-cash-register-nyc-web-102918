@@ -29,10 +29,8 @@ def apply_discount()
     @total = @total * (1- @discount)
     "Success new total is #{@total.to_i}"
   end
-  else 
-  "error message that there is no discount to apply"
+  return "There is no discount to apply"
   end 
-end
 
 
 end
