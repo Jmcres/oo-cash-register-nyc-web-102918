@@ -27,7 +27,6 @@ def apply_discount
   if @discount > 0 
     @discount = @discount/100.f 
     @total = @total * (1- @discount)
-
 end
 
 # CashRegister #apply_discount the cash register was initialized with an employee discount applies the discount to the total price
