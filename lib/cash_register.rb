@@ -25,8 +25,8 @@ end
 
 def apply_discount
   if self.discount > 0 
-    @discount = @discount/100.f 
-    @total = @total * (1- @discount)
+    self.discount = @discount/100.f 
+    self.total = @total * (1- @discount)
     return "After discount the total comes to #{@total.to_i}"
   else 
   return "There is no discount to apply"
