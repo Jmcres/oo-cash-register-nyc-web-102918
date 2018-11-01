@@ -8,19 +8,19 @@ def initialize(discount=0)
   @items =[]
 end
 
-def add_item(title, price, quantity=1)
-  if quantity >1 
-    i = 0 
-    while quantity > i 
-    @items << title
-    i +=1 
-  end
-else 
-  @items << title
-end 
-@
+# def add_item(title, price, quantity=1)
+#   if quantity >1 
+#     i = 0 
+#     while quantity > i 
+#     @items << title
+#     i +=1 
+#   end
+# else 
+#   @items << title
+# end 
+# @
   
-end
+# end
 
 end
 
