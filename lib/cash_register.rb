@@ -20,8 +20,7 @@ else
 end 
 @total += price * quantity
 @last_transaction_amount = total
-@total
-  
+@total 
 end
 
 end
