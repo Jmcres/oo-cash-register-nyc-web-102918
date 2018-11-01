@@ -23,6 +23,9 @@ end
 @total 
 end
 
+def apply_discount
+  
+
 end
 
-# CashRegister #add_item accepts a title and a price and increases the total
+# CashRegister #apply_discount the cash register was initialized with an employee discount applies the discount to the total price
